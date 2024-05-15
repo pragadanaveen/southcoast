@@ -1,0 +1,959 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato",sans-serif;
+}
+video{
+  width: 100%;
+}
+.gg{
+    background: #b14507;
+    height:415px;
+    margin-top: -4px;
+    padding: 40px;
+}
+.good h1{
+    font-size: clamp(4.5vw,5vh,70px);
+    text-align: center;
+    font-weight: 900;
+    margin-top: 60px;
+    color: #ffffff;
+}
+.good p{
+    font-size: clamp(1.2vw,3vh,15px);
+    /* font-size: 20px; */
+    text-align: center;
+    margin: 10px 73px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.mail{
+    background: #0f6da1;
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+    right: 20px;
+    bottom: 20px;
+    position:fixed;
+}
+.mm{
+    margin: 17px 32px 10px 17px;
+}
+.mail i{
+    font-size: 25px;
+    color: #fff;
+}
+.coast h1{
+    font-size: clamp(4vw,5vh,75px);
+    color: #00a2df;
+    text-align: center;
+    /* line-height: 79.3px; */
+    margin:75px 260px;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.list{
+    width: 40%;
+    margin-left: 31px;
+    margin-top: 10px;
+}
+.list ul li {
+    font-size: clamp(1.3vw,3vh,18px);
+    line-height: 39.8571px;
+}
+.map{
+    width: 60%;
+    /* border:1px solid black; */
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.card1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 70px;
+}
+.img1{
+    width: 50%;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.cs1{
+    width: 50%;
+    background: #1598a0;
+}
+.cs1 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs1 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,18px);
+    font-weight: 100;
+}
+.cs1 button{
+    background: #2db1b9;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+}
+.btn i{
+   padding: 12px;
+   margin-left: 3px;
+   margin-right: -30px;
+   background-color: #148A92;
+   color: #fff;
+}
+.btn2 i{
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: -30px;
+    background-color: #0C739C;
+ }.btn3 i{
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: -30px;
+    background-color: #D7A204;
+ }.btn4 i{
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: -30px;
+    background-color: #9c694c;
+ }
+ .btn5 i{
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: -30px;
+    background-color: #E4612E;
+ }.btn6 i{
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: -30px;
+    background-color: #939C62;
+ }
+
+.card2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 75px;
+}
+.img2{
+    width: 50%;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.cs2{
+    width: 50%;
+    background: #079dd9;
+}
+.cs2 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs2 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,18px);
+    font-weight: 100;
+}
+.cs2 button{
+    background: #0685b8;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+}
+.card3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 75px;
+}
+.img3{
+    width: 50%;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
+}
+.cs3{
+    width: 50%;
+    background: #f2b705;
+}
+.cs3 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs3 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,18px);
+    font-weight: 100;
+}
+.cs3 button{
+    background: #fccc3d;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+
+}
+.card4{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 75px;
+}
+.img4{
+    width: 50%;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+}
+.cs4{
+    width: 50%;
+    background: #a87558;
+}
+.cs4 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs4 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,18px);
+    font-weight: 100;
+}
+.cs4 button{
+    background: #ce8b64;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+}
+.card5{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 75px;
+}
+.img5{
+    width: 50%;
+}
+.img5 img{
+    width: 100%;
+    height: 100%;
+}
+.cs5{
+    width: 50%;
+    background: #f66b35;
+}
+.cs5 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs5 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,18px);
+    font-weight: 100;
+}
+.cs5 button{
+    background: #f69254;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+}
+.card6{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 22px solid #fff;
+    box-shadow: -4px 4px 20px 0px;
+    margin-top: 75px;
+}
+.img6{
+    width: 50%;
+}
+.img6 img{
+    width: 100%;
+    height: 100%;
+
+}
+.cs6{
+    width: 50%;
+    background: #a3ab78;
+}
+.cs6 h1{
+    text-align: center;
+    font-size: clamp(3.5vw,3vh,48px);
+    color: #fff;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.cs6 p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin:32px 15px 0px 15px;
+    font-size: clamp(1.2vw,2vh,16px);
+    font-weight: 100;
+}
+.cs6 button{
+    background: #b9c189;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 700;
+    font-size: clamp(1.5vw,2vh,16px);
+} 
+.travel h1{
+    text-align: center;
+    color: #00a2df;
+    margin-top: 46px;
+    font-size: 29px;
+    font-weight: 900;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 55px;
+}
+.container i{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+.container2 i{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+.container3 i{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+.container img{
+    width: 95%;
+    height: 100%;
+}
+.container2{
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+margin-top: 35px;
+}
+.container2 img{
+width: 95%;
+height: 100%;
+}
+.container2 .img5{
+    width: 100%;
+}
+.container3{
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+margin-top: 20px;
+}
+
+.container3 img{
+width: 95%;
+height: 100%;
+    } 
+.social{
+    text-align: center;
+    margin-top: 50px;
+}
+.social h1{
+    font-size: clamp(2vw,4vh,31px);
+    color: #00a2df;
+    font-weight: 900;
+}
+.social p{
+    font-size: clamp(2vw,4vh,29px);
+    margin-top: 30px;
+    color: #585a5b;
+    font-weight: 900;
+}
+.social .iconimg{
+    margin-top: 40px;
+}
+.social .iconimg img{
+    margin-left: 30px;
+
+}
+.icons{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.icons img{
+    margin-left: 19px;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.footer .con{
+    margin: 10px 0px;
+    align-items: center;
+}
+.footer .con ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.footer p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 22px;
+    line-height: 40px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+@media(max-width:576px){
+    .good p{
+        font-size: 12px;
+    }
+    .gg{
+        height:230px;
+        padding: 30px;
+    }
+    .good h1{
+        margin-top: 0px;
+    }
+    .coast h1{
+        font-size: 18px;
+    margin: auto;
+    margin-top: 15px;
+margin-bottom: 15px;
+    }
+    .footer .con ul li{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .mail{
+        height:50px;
+        width: 50px;
+    }
+    
+    .mm{
+        margin: 12px 12px 10px 12px;
+    }
+    .mail i{
+        font-size: 25px;
+    }
+    .main{
+        display: block;
+    }
+    .map{
+        width: 100%;
+        height: 100%;
+    }
+    .map iframe{
+        height: 300px;
+    }
+    .list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6{
+    width: 100%;
+}
+.cs1 h1{
+    margin-top: 8px;
+    font-size: 40px;
+}
+.cs1 p{
+    margin-top: 10px;
+font-size: 16px;
+}
+    .cs1 button{
+        padding: 12px;
+        margin-top: 8px;
+        font-size: 18px ;
+    }
+    .cs2 h1{
+        margin-top: 8px;
+        font-size: 40px;
+    }
+    .cs2 p{
+        margin-top: 10px;
+    font-size: 16px;
+    }
+        .cs2 button{
+            padding: 12px;
+            margin-top: 8px;
+            font-size: 18px ;
+        }
+        .cs3 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs3 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs3 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+        .cs4 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs4 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs4 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+    
+        .cs5 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs5 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs5 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+    .card6,
+    .card5,
+    .card4,
+    .card3,
+    .card2,
+    .card1
+    {
+        border: 10px solid #fff;
+        display: block;
+        width: 80%;
+    }
+    .cs6,
+    .cs5,
+    .cs4,
+    .cs3,
+    .cs2,
+    .cs1{
+        width: 100%;
+        height: max-content;
+    }
+    .cs2,
+    .cs4,
+    .cs6{
+        margin-bottom: 9px;
+    }
+    .cs6 h1{
+        margin-top: 8px;
+        font-size: 40px;
+    }
+    .cs6 p{
+        margin-top: 10px;
+    font-size: 16px;
+    }
+        .cs6 button{
+            padding: 12px;
+            margin-top: 8px;
+            font-size: 18px ;
+        }
+        .btnn i{
+            padding: 12px;
+            margin-right: -12px;
+            margin-left: 8px;
+        }
+    }
+@media(min-width:577px) and (max-width:767px){
+    .gg{
+        height:220px;
+        padding: 30px;
+    }
+    .good h1{
+        margin-top: 5px;
+    }
+    .mail{
+        height:50px;
+        width: 50px;
+    }
+    .mm{
+        margin: 12px 12px 10px 12px;
+    }
+    .mail{
+        height:50px;
+        width: 50px;
+    }
+    
+    .mm{
+        margin: 12px 12px 10px 12px;
+    }
+    .mail i{
+        font-size: 25px;
+    }
+    .main{
+        display: block;
+    }
+    .map{
+        width: 100%;
+        height: 100%;
+    }
+    .map iframe{
+        height: 300px;
+    }
+    .list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6{
+    width: 100%;
+}
+.cs1 h1{
+    margin-top: 8px;
+    font-size: 40px;
+}
+.cs1 p{
+    margin-top: 10px;
+font-size: 16px;
+}
+    .cs1 button{
+        padding: 12px;
+        margin-top: 8px;
+        font-size: 18px ;
+    }
+    .cs2 h1{
+        margin-top: 8px;
+        font-size: 40px;
+    }
+    .cs2 p{
+        margin-top: 10px;
+    font-size: 16px;
+    }
+        .cs2 button{
+            padding: 12px;
+            margin-top: 8px;
+            font-size: 18px ;
+        }
+        .cs3 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs3 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs3 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+        .cs4 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs4 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs4 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+    
+        .cs5 h1{
+            margin-top: 8px;
+            font-size: 40px;
+        }
+        .cs5 p{
+            margin-top: 10px;
+        font-size: 16px;
+        }
+            .cs5 button{
+                padding: 12px;
+                margin-top: 8px;
+                font-size: 18px ;
+            }
+    .card6,
+    .card5,
+    .card4,
+    .card3,
+    .card2,
+    .card1
+    {
+        border: 10px solid #fff;
+        display: block;
+        width: 80%;
+    }
+    .cs6,
+    .cs5,
+    .cs4,
+    .cs3,
+    .cs2,
+    .cs1{
+        width: 100%;
+        height: max-content;
+    }
+    .cs2,
+    .cs4,
+    .cs6{
+        margin-bottom: 9px;
+    }
+    .cs6 h1{
+        margin-top: 8px;
+        font-size: 40px;
+    }
+    .cs6 p{
+        margin-top: 10px;
+    font-size: 16px;
+    }
+        .cs6 button{
+            padding: 12px;
+            margin-top: 8px;
+            /* margin-bottom: 8px; */
+            font-size: 18px;
+        }
+        .btnn i{
+            padding: 12px;
+            margin-right: -12px;
+            margin-left: 8px;
+        }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .gg{
+        height:220px;
+        padding: 30px;
+    }
+    .good h1{
+        margin-top: 5px;
+    }
+    .footer .con ul li{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .mail{
+        height:50px;
+        width: 50px;
+    }
+    .mm{
+        margin: 12px 12px 10px 12px;
+    }
+    .mail i{
+        font-size: 25px;
+    }
+    .card1{
+        border: 10px solid #fff;
+    }
+    .cs1 h1{
+        margin-top: 45px;
+        font-size: 45px;
+    }
+    .cs1 p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .cs1 button{
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+        .card2{
+            border: 10px solid #fff;
+        }
+        .cs2 h1{
+            margin-top: 45px;
+            font-size: 45px;
+        }
+        .cs2 p{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .cs2 button{
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .card3{
+    
+            border: 10px solid #fff;
+        }
+        .cs3 h1{
+            margin-top: 45px;
+            font-size: 45px;
+        }
+        .cs3 p{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .cs3 button{
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .card4{
+            border: 10px solid #fff;
+        }
+        .cs4 h1{
+            margin-top: 45px;
+            font-size: 45px;
+        }
+        .cs4 p{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .cs4 button{
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .card5{
+            border: 10px solid #fff;
+        }
+        .cs5 h1{
+            margin-top: 45px;
+            font-size: 45px;
+        }
+        .cs5 p{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .cs5 button{
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .card6{
+            border: 10px solid #fff;
+        }
+            .cs6 h1{
+                margin-top: 45px;
+                font-size: 45px;
+            }
+            .cs6 p{
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            .cs6 button{
+                padding: 12px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .btnn i{
+                padding: 12px;
+                margin-right: -12px;
+                margin-left: 8px;
+            }
+}
